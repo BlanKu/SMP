@@ -1,0 +1,4 @@
+&7Witaj, na &a{ADDRESS}!
+&7Wszystkie komendy znajdziesz pod &a/help&7.
+&7Jeśli napotkasz problemy z rozgrywją napisz do &aBlanKu&7.
+&7Miłej rozgrywki! &a;)
