@@ -1,1 +1,5 @@
 kits:
+  start:
+    delay: 600
+    items:
+    - compass 1 name:&cMENU itemflags:HIDE_ENCHANTS

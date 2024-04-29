@@ -1,144 +1,275 @@
-[13:14:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:14:37] [ServerMain/INFO]: Loaded 1174 recipes
-[13:14:38] [ServerMain/INFO]: Loaded 1271 advancements
-[13:14:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:14:38] [Server thread/INFO]: Loading properties
-[13:14:38] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
-[13:14:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:14:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:14:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:20:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:20:10] [ServerMain/INFO]: Found new data pack file/Incendium.zip, loading it automatically
+[15:20:10] [ServerMain/INFO]: Found new data pack file/Nullscape.zip, loading it automatically
+[15:20:10] [ServerMain/INFO]: Found new data pack file/Structory.zip, loading it automatically
+[15:20:10] [ServerMain/INFO]: Found new data pack file/Terralith.zip, loading it automatically
+[15:20:10] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[15:20:11] [ServerMain/INFO]: No existing world data, creating new world
+[15:20:13] [ServerMain/INFO]: Loaded 1175 recipes
+[15:20:13] [ServerMain/INFO]: Loaded 1333 advancements
+[15:20:13] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:20:13] [Server thread/INFO]: Loading properties
+[15:20:13] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[15:20:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:20:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:20:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:14:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[13:14:39] [Server thread/INFO]: Default game type: SURVIVAL
-[13:14:39] [Server thread/INFO]: Generating keypair
-[13:14:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:14:39] [Server thread/INFO]: Using default channel type
-[13:14:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:14:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:14:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.124
-[13:14:40] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:14:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+80-549283a
-[13:14:40] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.64
-[13:14:40] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+80-549283a
-[13:14:40] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+80-549283a
-[13:14:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:14:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.124
-[13:14:40] [Server thread/INFO]:         __    
-[13:14:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.124
-[13:14:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:14:40] [Server thread/INFO]: 
-[13:14:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:14:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:14:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:14:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:14:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1098ms)
-[13:14:41] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:14:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:14:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:14:41] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:14:41] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:14:41] [Server thread/INFO]: Preparing level "world"
-[13:14:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:14:42] [Server thread/INFO]: Time elapsed: 348 ms
-[13:14:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:14:43] [Server thread/INFO]: Time elapsed: 1250 ms
-[13:14:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:14:43] [Server thread/INFO]: Time elapsed: 58 ms
-[13:14:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+80-549283a
-[13:14:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[13:14:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[13:14:44] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
-[13:14:44] [Server thread/INFO]: [Essentials] Using locale pl_PL
-[13:14:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:14:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[13:14:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:14:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[13:14:45] [Server thread/INFO]: [spark] Enabling spark v1.10.64
-[13:14:45] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[13:14:45] [Server thread/INFO]: [spark] Starting background profiler...
-[13:14:45] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:14:45] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+80-549283a
-[13:14:45] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[13:14:45] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+80-549283a
-[13:14:45] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[13:14:45] [Server thread/INFO]: Running delayed init tasks
-[13:14:45] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:14:45] [Server thread/INFO]: Done (7.278s)! For help, type "help"
-[13:14:45] [Server thread/INFO]: Timings Reset
-[13:14:45] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
-[13:14:45] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Pobieranie informacji o wersji…
-[13:14:45] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
-[13:15:07] [User Authenticator #0/INFO]: UUID of player BlanKu is ac55dfbb-f625-4317-b76c-facfc033e428
-[13:15:08] [Server thread/INFO]: BlanKu[/127.0.0.1:58638] logged in with entity id 199 at ([world]-399.5197930050342, 76.0, -84.67465221327184)
-[13:15:08] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 33,047100ms. Summary: Getting prefix for BlanKu
-[13:15:08] [Server thread/INFO]: [+]BlanKu
-[13:16:20] [Server thread/INFO]: BlanKu issued server command: /luckperms editor
-[13:16:55] [Server thread/INFO]: BlanKu issued server command: /luckperms applyedits HtuOgscjrS
-[13:16:56] [luckperms-command-executor/INFO]: [LP] LOG > (BlanKu) [G] (admin)
-[13:16:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add * true
-[13:17:41] [Server thread/INFO]: BlanKu issued server command: /essentials reload
-[13:17:41] [Server thread/INFO]: [Essentials] Loaded 39098 items from items.json.
-[13:17:41] [Server thread/INFO]: [Essentials] Using locale pl_PL
-[13:17:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:17:56] [Async Chat Thread - #2/INFO]: BlanKu: asd
-[13:18:06] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu editor
-[13:18:29] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu clear group set admin
-[13:18:29] [luckperms-command-executor/INFO]: [LP] LOG > (BlanKu) [U] (blanku)
-[13:18:29] [luckperms-command-executor/INFO]: [LP] LOG > clear server=admin server=group world=set
-[13:18:38] [Async Chat Thread - #2/INFO]: BlanKu: asd
-[13:18:45] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu info
-[13:19:02] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu group set admin
-[13:19:02] [luckperms-command-executor/INFO]: [LP] LOG > (BlanKu) [U] (blanku)
-[13:19:02] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
-[13:19:06] [Async Chat Thread - #2/INFO]: BlanKu: asd
-[13:19:38] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu group remove admin
-[13:19:38] [luckperms-command-executor/INFO]: [LP] LOG > (BlanKu) [U] (blanku)
-[13:19:38] [luckperms-command-executor/INFO]: [LP] LOG > parent remove admin
-[13:19:39] [Async Chat Thread - #2/INFO]: BlanKu: asd
-[13:19:43] [Server thread/INFO]: BlanKu issued server command: /lp user BlanKu group set admin
-[13:19:43] [luckperms-command-executor/INFO]: [LP] LOG > (BlanKu) [U] (blanku)
-[13:19:43] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
-[13:19:44] [Async Chat Thread - #2/INFO]: BlanKu: asd
-[13:19:52] [Server thread/INFO]: BlanKu issued server command: /save-all
-[13:19:52] [Server thread/INFO]: [BlanKu: Saved the game]
-[13:19:56] [Server thread/INFO]: BlanKu issued server command: /sotp
-[13:19:58] [Server thread/INFO]: BlanKu issued server command: /stop
-[13:19:58] [Server thread/INFO]: [BlanKu: Stopping the server]
-[13:19:58] [Server thread/INFO]: Stopping server
-[13:19:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+80-549283a
-[13:19:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+80-549283a
-[13:19:58] [Server thread/INFO]: [spark] Disabling spark v1.10.64
-[13:19:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+80-549283a
-[13:19:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[13:19:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[13:19:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.124
-[13:19:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[13:19:58] [Server thread/INFO]: [LuckPerms] Closing storage...
-[13:19:58] [Server thread/INFO]: [LuckPerms] Goodbye!
-[13:19:58] [Server thread/INFO]: Saving players
-[13:19:58] [Server thread/INFO]: BlanKu lost connection: Server closed
-[13:19:58] [Server thread/INFO]: BlanKu left the game
-[13:19:58] [Server thread/INFO]: Saving worlds
-[13:19:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 143 entity chunks, 0 poi chunks in world 'world' in 0,02s
-[13:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:19:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
-[13:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:19:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:19:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
-[13:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:19:58] [Server thread/INFO]: Flushing Chunk IO
-[13:19:58] [Server thread/INFO]: Closing Thread Pool
-[13:19:58] [Server thread/INFO]: Closing Server
+[15:20:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[15:20:15] [Server thread/INFO]: Default game type: SURVIVAL
+[15:20:15] [Server thread/INFO]: Generating keypair
+[15:20:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:20:15] [Server thread/INFO]: Using default channel type
+[15:20:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:20:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:20:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.124
+[15:20:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:20:15] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[15:20:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4b73409f]
+[15:20:16] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+80-549283a
+[15:20:16] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[15:20:16] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.4
+[15:20:16] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.64
+[15:20:16] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+80-549283a
+[15:20:16] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+80-549283a
+[15:20:16] [Server thread/INFO]: [CrisTreeCapitator] Loading server plugin CrisTreeCapitator v6.4.4
+[15:20:16] [Server thread/INFO]: [CommandItems] Loading server plugin CommandItems v1.14.8
+[15:20:16] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
+[15:20:16] [Server thread/INFO]: [BossBarHealth] Loading server plugin BossBarHealth v4.1.13-SNAPSHOT
+[15:20:16] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.0.7
+[15:20:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:20:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.124
+[15:20:17] [Server thread/INFO]:         __    
+[15:20:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.124
+[15:20:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:20:17] [Server thread/INFO]: 
+[15:20:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:20:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:20:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:20:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:20:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1285ms)
+[15:20:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:20:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:20:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:20:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:20:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:20:18] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[15:20:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:20:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:20:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[15:20:19] [Server thread/INFO]: Preparing level "world"
+[15:20:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:20:24] [Server thread/INFO]: Time elapsed: 170 ms
+[15:20:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:20:24] [Server thread/INFO]: Time elapsed: 135 ms
+[15:20:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:20:24] [Server thread/INFO]: Time elapsed: 24 ms
+[15:20:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+80-549283a
+[15:20:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:20:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:20:25] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[15:20:25] [Server thread/INFO]: [Essentials] Using locale pl_PL
+[15:20:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:20:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:20:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:20:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:20:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:20:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:20:26] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:20:26] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
+[15:20:26] [Server thread/INFO]: [TAB] Loaded NMS hook in 141ms
+[15:20:26] [Server thread/INFO]: [TAB] Enabled in 215ms
+[15:20:26] [Server thread/INFO]: [spark] Enabling spark v1.10.64
+[15:20:27] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[15:20:27] [Server thread/INFO]: [spark] Starting background profiler...
+[15:20:27] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[15:20:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+80-549283a
+[15:20:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:20:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+80-549283a
+[15:20:27] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:20:27] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.4.4
+[15:20:27] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard found, extra protection enabled.
+[15:20:27] [Server thread/INFO]: [CrisTreeCapitator] Logs from JSON: [OAK_LOG, OAK_LOG, OAK_LOG, OAK_LOG]
+[15:20:27] [Server thread/INFO]: [CrisTreeCapitator] Leaves from JSON: [OAK_LEAVES, OAK_LEAVES, OAK_LEAVES, OAK_LEAVES]
+[15:20:27] [Server thread/INFO]: [CrisTreeCapitator] Enabled
+[15:20:27] [Server thread/INFO]: [CommandItems] Enabling CommandItems v1.14.8
+[15:20:27] [Server thread/INFO]: LOGGER [CommandItems] | WARN: You no placeholder container found! (PAPI, MVdWPAPI). The internal one will be used!
+[15:20:27] [Server thread/INFO]: LOGGER [CommandItems] | INFO: Server version is most likely 1.20.4 (36, v1_20_R3 :: 60a2bb)
+[15:20:27] [Server thread/INFO]: LOGGER [CommandItems] | INFO: Executed setup for config: config.yml
+[15:20:27] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
+[15:20:27] [Server thread/INFO]: [BossBarHealth] Enabling BossBarHealth v4.1.13-SNAPSHOT
+[15:20:27] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.0.7
+[15:20:28] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[15:20:28] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[15:20:28] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[15:20:28] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[15:20:28] [Server thread/INFO]: [AuraSkills] Loaded 102 config options in 16 ms
+[15:20:28] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked worlds.
+[15:20:29] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:20:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
+[15:20:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
+[15:20:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[15:20:29] [Server thread/INFO]: Running delayed init tasks
+[15:20:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:20:29] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:20:29] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[15:20:29] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Pobieranie informacji o wersji…
+[15:20:30] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[15:20:30] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[15:20:30] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[15:20:30] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[15:20:30] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[15:20:30] [Server thread/INFO]: Done (17.028s)! For help, type "help"
+[15:20:30] [Server thread/INFO]: Timings Reset
+[15:20:35] [User Authenticator #0/INFO]: UUID of player BlanKu is ac55dfbb-f625-4317-b76c-facfc033e428
+[15:20:36] [Server thread/INFO]: BlanKu[/127.0.0.1:59011] logged in with entity id 34 at ([world]-108.5, 70.0, 125.5)
+[15:20:36] [Server thread/INFO]: [+]BlanKu
+[15:21:14] [Server thread/INFO]: BlanKu issued server command: /datapack
+[15:21:16] [Server thread/INFO]: BlanKu issued server command: /datapack list
+[15:21:39] [Server thread/INFO]: BlanKu issued server command: /chunky radius 500
+[15:21:44] [Server thread/INFO]: BlanKu issued server command: /chunky start
+[15:21:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 49 chunks (1,16%), ETA: 0:00:47, Rate: 87,3 cps, Current: 6, 4
+[15:21:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 83 chunks (1,96%), ETA: 0:01:19, Rate: 52,1 cps, Current: 14, 1
+[15:21:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 131 chunks (3,10%), ETA: 0:01:22, Rate: 49,8 cps, Current: 10, 8
+[15:21:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 258 chunks (6,11%), ETA: 0:00:56, Rate: 70,7 cps, Current: 14, 11
+[15:21:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 305 chunks (7,22%), ETA: 0:00:59, Rate: 65,5 cps, Current: 14, 15
+[15:21:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 327 chunks (7,74%), ETA: 0:01:08, Rate: 56,9 cps, Current: 2, 27
+[15:21:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 374 chunks (8,85%), ETA: 0:01:09, Rate: 55,3 cps, Current: 7, 26
+[15:21:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 420 chunks (9,94%), ETA: 0:01:10, Rate: 54,0 cps, Current: 11, 30
+[15:21:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 503 chunks (11,91%), ETA: 0:01:04, Rate: 57,3 cps, Current: 15, 25
+[15:21:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 539 chunks (12,76%), ETA: 0:01:07, Rate: 54,9 cps, Current: 21, 21
+[15:21:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 563 chunks (13,33%), ETA: 0:01:10, Rate: 51,8 cps, Current: 19, 16
+[15:21:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 604 chunks (14,30%), ETA: 0:01:11, Rate: 50,5 cps, Current: 20, 25
+[15:21:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 645 chunks (15,27%), ETA: 0:01:12, Rate: 49,7 cps, Current: 24, 29
+[15:21:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 677 chunks (16,02%), ETA: 0:01:13, Rate: 48,4 cps, Current: 25, 31
+[15:21:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 729 chunks (17,25%), ETA: 0:01:12, Rate: 48,5 cps, Current: 24, 16
+[15:22:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 762 chunks (18,04%), ETA: 0:01:13, Rate: 47,3 cps, Current: 31, 19
+[15:22:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 802 chunks (18,98%), ETA: 0:01:13, Rate: 46,7 cps, Current: 31, 14
+[15:22:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 883 chunks (20,90%), ETA: 0:01:08, Rate: 48,6 cps, Current: 23, 9
+[15:22:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 938 chunks (22,20%), ETA: 0:01:07, Rate: 48,8 cps, Current: 17, 1
+[15:22:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 993 chunks (23,50%), ETA: 0:01:06, Rate: 48,8 cps, Current: 27, 4
+[15:22:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1034 chunks (24,47%), ETA: 0:01:05, Rate: 48,4 cps, Current: 32, 5
+[15:22:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1054 chunks (24,95%), ETA: 0:01:08, Rate: 46,5 cps, Current: 31, 0
+[15:22:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1057 chunks (25,02%), ETA: 0:01:14, Rate: 42,7 cps, Current: 32, -1
+[15:22:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1093 chunks (25,87%), ETA: 0:01:14, Rate: 42,3 cps, Current: 0, -31
+[15:22:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1128 chunks (26,70%), ETA: 0:01:13, Rate: 41,9 cps, Current: 6, -30
+[15:22:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1159 chunks (27,43%), ETA: 0:01:13, Rate: 41,5 cps, Current: 13, -30
+[15:22:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1210 chunks (28,64%), ETA: 0:01:12, Rate: 41,7 cps, Current: 10, -25
+[15:22:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1250 chunks (29,59%), ETA: 0:01:12, Rate: 40,9 cps, Current: 14, -22
+[15:22:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1309 chunks (30,98%), ETA: 0:01:10, Rate: 41,5 cps, Current: 3, -23
+[15:22:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1351 chunks (31,98%), ETA: 0:01:09, Rate: 41,4 cps, Current: 0, -22
+[15:22:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1445 chunks (34,20%), ETA: 0:01:10, Rate: 39,7 cps, Current: 0, -6
+[15:22:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1510 chunks (35,74%), ETA: 0:01:06, Rate: 41,0 cps, Current: 12, -5
+[15:22:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1593 chunks (37,70%), ETA: 0:01:01, Rate: 42,6 cps, Current: 16, -16
+[15:22:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1630 chunks (38,58%), ETA: 0:01:01, Rate: 42,4 cps, Current: 18, -16
+[15:22:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1681 chunks (39,79%), ETA: 0:00:59, Rate: 42,7 cps, Current: 21, -9
+[15:22:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1795 chunks (42,49%), ETA: 0:00:54, Rate: 44,3 cps, Current: 24, -9
+[15:22:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1872 chunks (44,31%), ETA: 0:00:51, Rate: 45,4 cps, Current: 29, -18
+[15:22:23] [Server thread/INFO]: BlanKu issued server command: /worldborder center
+[15:22:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1965 chunks (46,51%), ETA: 0:00:48, Rate: 47,0 cps, Current: 22, -22
+[15:22:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2026 chunks (47,95%), ETA: 0:00:45, Rate: 48,1 cps, Current: 17, -31
+[15:22:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2113 chunks (50,01%), ETA: 0:00:43, Rate: 48,3 cps, Current: -30, -27
+[15:22:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2154 chunks (50,98%), ETA: 0:00:42, Rate: 48,3 cps, Current: -32, -25
+[15:22:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2181 chunks (51,62%), ETA: 0:00:42, Rate: 47,6 cps, Current: -23, -31
+[15:22:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2235 chunks (52,90%), ETA: 0:00:40, Rate: 48,5 cps, Current: -20, -25
+[15:22:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2281 chunks (53,99%), ETA: 0:00:40, Rate: 48,1 cps, Current: -21, -19
+[15:22:32] [Server thread/INFO]: BlanKu issued server command: /worldborder get
+[15:22:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2341 chunks (55,41%), ETA: 0:00:39, Rate: 47,6 cps, Current: -30, -22
+[15:22:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2385 chunks (56,45%), ETA: 0:00:39, Rate: 47,1 cps, Current: -32, -20
+[15:22:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2421 chunks (57,30%), ETA: 0:00:37, Rate: 47,5 cps, Current: -30, -9
+[15:22:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2463 chunks (58,30%), ETA: 0:00:37, Rate: 47,3 cps, Current: -27, -8
+[15:22:37] [Server thread/INFO]: BlanKu issued server command: /worldborder warning
+[15:22:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2551 chunks (60,38%), ETA: 0:00:33, Rate: 50,0 cps, Current: -22, -8
+[15:22:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2627 chunks (62,18%), ETA: 0:00:30, Rate: 53,3 cps, Current: -16, -14
+[15:22:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2799 chunks (66,25%), ETA: 0:00:24, Rate: 58,0 cps, Current: -7, -7
+[15:22:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2897 chunks (68,57%), ETA: 0:00:22, Rate: 60,2 cps, Current: -3, -19
+[15:22:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2978 chunks (70,49%), ETA: 0:00:20, Rate: 62,0 cps, Current: -12, -20
+[15:22:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3050 chunks (72,19%), ETA: 0:00:18, Rate: 62,8 cps, Current: -9, -27
+[15:22:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3140 chunks (74,32%), ETA: 0:00:16, Rate: 64,7 cps, Current: -32, 0
+[15:22:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3218 chunks (76,17%), ETA: 0:00:15, Rate: 65,2 cps, Current: -25, 2
+[15:22:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3301 chunks (78,13%), ETA: 0:00:13, Rate: 66,6 cps, Current: -23, 8
+[15:22:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3359 chunks (79,50%), ETA: 0:00:13, Rate: 65,4 cps, Current: -30, 9
+[15:22:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3410 chunks (80,71%), ETA: 0:00:12, Rate: 64,9 cps, Current: -26, 18
+[15:22:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3443 chunks (81,49%), ETA: 0:00:12, Rate: 62,6 cps, Current: -25, 22
+[15:22:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3471 chunks (82,15%), ETA: 0:00:12, Rate: 62,4 cps, Current: -30, 29
+[15:22:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3511 chunks (83,10%), ETA: 0:00:11, Rate: 61,9 cps, Current: -26, 27
+[15:22:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3547 chunks (83,95%), ETA: 0:00:11, Rate: 59,0 cps, Current: -21, 24
+[15:22:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3701 chunks (87,60%), ETA: 0:00:08, Rate: 61,6 cps, Current: -13, 22
+[15:22:54] [Server thread/INFO]: BlanKu issued server command: /worldborder set 3000
+[15:22:54] [Server thread/INFO]: [BlanKu: Set the world border to 3000.0 block(s) wide]
+[15:22:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3755 chunks (88,88%), ETA: 0:00:07, Rate: 60,3 cps, Current: -14, 31
+[15:22:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4156 chunks (98,37%), ETA: 0:00:00, Rate: 71,3 cps, Current: -7, 31
+[15:22:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4203 chunks (99,48%), ETA: 0:00:00, Rate: 73,0 cps, Current: 10, 32
+[15:22:56] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100,00%), Total time: 0:01:12
+[15:22:57] [Server thread/INFO]: BlanKu issued server command: /gm 1
+[15:23:00] [Server thread/INFO]: BlanKu issued server command: /speed 1000
+[15:23:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2721ms or 54 ticks behind
+[15:24:18] [Server thread/INFO]: BlanKu issued server command: /worldborder set 4000
+[15:24:18] [Server thread/INFO]: [BlanKu: Set the world border to 4000.0 block(s) wide]
+[15:25:18] [Server thread/INFO]: BlanKu issued server command: /worldborder set 10000
+[15:25:18] [Server thread/INFO]: [BlanKu: Set the world border to 10000.0 block(s) wide]
+[15:25:21] [Server thread/INFO]: BlanKu issued server command: /stop
+[15:25:21] [Server thread/INFO]: [BlanKu: Stopping the server]
+[15:25:21] [Server thread/INFO]: Stopping server
+[15:25:21] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.0.7
+[15:25:21] [Server thread/INFO]: [BossBarHealth] Disabling BossBarHealth v4.1.13-SNAPSHOT
+[15:25:21] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.136
+[15:25:21] [Server thread/INFO]: [CommandItems] Disabling CommandItems v1.14.8
+[15:25:21] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.4.4
+[15:25:21] [Server thread/INFO]: [CrisTreeCapitator] Disabled
+[15:25:21] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+80-549283a
+[15:25:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+80-549283a
+[15:25:21] [Server thread/INFO]: [spark] Disabling spark v1.10.64
+[15:25:21] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
+[15:25:21] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:25:21] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[15:25:21] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:25:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+80-549283a
+[15:25:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[15:25:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[15:25:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:25:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:25:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.124
+[15:25:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:25:21] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:25:21] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:25:21] [Server thread/INFO]: Saving players
+[15:25:21] [Server thread/INFO]: BlanKu lost connection: Server closed
+[15:25:22] [Server thread/INFO]: BlanKu left the game
+[15:25:22] [Server thread/INFO]: Saving worlds
+[15:25:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:25:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:25:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:25:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:25:28] [Server thread/INFO]: [ChunkHolderManager] Saved 3975 block chunks, 3223 entity chunks, 39 poi chunks in world 'world' in 6,35s
+[15:25:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:25:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:25:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:25:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:25:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:25:29] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0,56s
+[15:25:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:25:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:25:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:25:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:25:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:25:29] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,13s
+[15:25:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:25:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:25:29] [Server thread/INFO]: Flushing Chunk IO
+[15:25:29] [Server thread/INFO]: Closing Thread Pool
+[15:25:29] [Server thread/INFO]: Closing Server

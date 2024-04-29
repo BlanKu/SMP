@@ -1,0 +1,19 @@
+items:
+  basic_item:
+    consume: false # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: COMPASS
+      name: "&cMENU"
+      lore: 
+      enchanted: false
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed
+      byplayer:
+        - "skills"
+      byconsole:
+        - ""
+
+      
