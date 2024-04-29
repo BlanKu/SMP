@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1714389151088
-  login: 1714388698901
+  logout: 1714389598049
+  login: 1714389308239
   kits:
     start: 1714387231269
 money: '0'
@@ -25,11 +25,11 @@ last-account-name: BlanKu
 logoutlocation:
   world: 5d376d1b-c600-49f3-aad6-fbb7a7ab93ab
   world-name: world
-  x: -399.5197930050342
+  x: -399.1720404551389
   y: 76.0
-  z: -84.67465221327184
-  yaw: -115.36487579345703
-  pitch: 53.9273567199707
+  z: -84.40597235801604
+  yaw: -83.34344482421875
+  pitch: 36.939109802246094
 lastlocation:
   world: 5d376d1b-c600-49f3-aad6-fbb7a7ab93ab
   world-name: world
