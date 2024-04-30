@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1714481620661
+  login: 1714481470198
+money: '0'
+last-account-name: BlanKu
+lastlocation:
+  world: 60ec8a2a-3985-44fd-bbc6-5eed6301df6a
+  world-name: world
+  x: -110.5
+  y: 71.0
+  z: 124.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 60ec8a2a-3985-44fd-bbc6-5eed6301df6a
+  world-name: world
+  x: -93.23653188750396
+  y: 74.0
+  z: 141.039086280134
+  yaw: -0.007080078125
+  pitch: 32.72579574584961

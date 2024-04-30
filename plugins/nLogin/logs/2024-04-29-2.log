@@ -1,0 +1,40 @@
+[2024/04/29 18:32:23]: §9          __             _       
+[2024/04/29 18:32:23]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/04/29 18:32:23]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/04/29 18:32:23]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/04/29 18:32:23]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/04/29 18:32:23]: §9                  |___/            
+[2024/04/29 18:32:23]: §9 By: www.nickuc.com - V 10.3.13 DEVELOPMENT
+[2024/04/29 18:32:23]: §9 
+[2024/04/29 18:32:23]: §3[nLogin] [DEBUG] All settings were loaded in 136 ms.
+[2024/04/29 18:32:23]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/04/29 18:32:23]: §3[nLogin] [DEBUG] All plugin messages were loaded in 94 ms (languageByClient=false).
+[2024/04/29 18:32:23]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2024/04/29 18:32:23]: §3[nLogin] [DEBUG] Loading database...
+[2024/04/29 18:32:24]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/04/29 18:32:35]: §3[nLogin] [DEBUG] [ProtocolLib] com.comphenix.protocol.injector.temporary.TemporaryPlayerInvocationHandler@382214eb has been disconnected: [nLogin]
+
+The online-mode option is enabled, but it is not supported in Bukkit servers when using nLogin.
+
+Please disable it in server.properties configuration file.
+[2024/04/29 18:32:35]: 
+[2024/04/29 18:32:35]:  §bThank you so much for choosing nLogin! §4<3
+[2024/04/29 18:32:35]: 
+[2024/04/29 18:32:35]:  §4For your safety, please read the message below:
+[2024/04/29 18:32:35]:   §cNever download nLogin from unknown sources.
+[2024/04/29 18:32:35]:   §cA modified version may contain malicious software.
+[2024/04/29 18:32:35]: 
+[2024/04/29 18:32:35]:  §3Trusted sources:
+[2024/04/29 18:32:35]:   §bwww.nickuc.com
+[2024/04/29 18:32:35]:   §bwww.github.com/nickuc
+[2024/04/29 18:32:35]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2024/04/29 18:32:35]: 
+[2024/04/29 18:32:35]:  §3Official support channels:
+[2024/04/29 18:32:35]:   §bDiscord group: §fwww.nickuc.com/discord
+[2024/04/29 18:32:35]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2024/04/29 18:32:35]:   §bEmail: §fsupport@nickuc.com
+[2024/04/29 18:32:35]:   §bYouTube: §fyoutube.com/nickuc
+[2024/04/29 18:32:35]: 
+[2024/04/29 18:32:35]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2024/04/29 18:32:35]:  §eand click the "Setup plugin" button to configure your plugin.
+[2024/04/29 18:32:35]: 
