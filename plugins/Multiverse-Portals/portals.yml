@@ -1,0 +1,20 @@
+portals:
+  pvp:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: BlanKu
+    location: -76.0,73.0,162.0:-76.0,80.0,166.0
+    world: world
+    destination: p:pvpend
+  pvpend:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: BlanKu
+    location: 0.0,69.0,0.0:0.0,70.0,0.0
+    world: world_the_end

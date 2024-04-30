@@ -1,0 +1,12 @@
+location: world:-73,509:77,000:164,502
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7[&4&LPVP&7]'
+    height: 0.3
+  actions: {}

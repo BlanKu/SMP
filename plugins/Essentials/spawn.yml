@@ -1,0 +1,25 @@
+spawns:
+  default:
+    world: 60ec8a2a-3985-44fd-bbc6-5eed6301df6a
+    world-name: world
+    x: -64.5
+    y: 74.0
+    z: 164.5
+    yaw: 0.3519795835018158
+    pitch: 2.161007881164551
+  all:
+    world: 60ec8a2a-3985-44fd-bbc6-5eed6301df6a
+    world-name: world
+    x: -64.53262092073655
+    y: 74.0
+    z: 164.4601304692532
+    yaw: 0.42041015625
+    pitch: 7.560309410095215
+  '*':
+    world: 60ec8a2a-3985-44fd-bbc6-5eed6301df6a
+    world-name: world
+    x: -64.53262092073655
+    y: 74.0
+    z: 164.4601304692532
+    yaw: 0.42041015625
+    pitch: 7.560309410095215

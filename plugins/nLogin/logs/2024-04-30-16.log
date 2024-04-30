@@ -1,0 +1,55 @@
+[2024/04/30 21:34:01]: §9          __             _       
+[2024/04/30 21:34:01]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/04/30 21:34:01]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/04/30 21:34:01]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/04/30 21:34:01]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/04/30 21:34:01]: §9                  |___/            
+[2024/04/30 21:34:01]: §9 By: www.nickuc.com - V 10.3.13
+[2024/04/30 21:34:01]: §9 
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] All settings were loaded in 140 ms.
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] All plugin messages were loaded in 99 ms (languageByClient=false).
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] Loading database...
+[2024/04/30 21:34:02]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/04/30 21:34:17]: §4[nLogin] [ERROR] §cUnable to verify that the player is an NPC. Most likely this is a Citizens error.
+java.lang.NoClassDefFoundError: net/citizensnpcs/api/CitizensAPI
+	at com.nickuc.login.ΠλΛουξπΦΨχ.b(:23)
+	at com.nickuc.login.εγωπΨπεοξΠυ.c(:124)
+	at com.nickuc.login.εγωπΨπεοξΠυ.c(:39)
+	at com.nickuc.login.ψΓφτδκφΨςχτ.a(:166)
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor67.execute(Unknown Source)
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:345)
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:134)
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(ServerboundFinishConfigurationPacket.java:18)
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(ServerboundFinishConfigurationPacket.java:9)
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:54)
+	at net.minecraft.server.TickTask.run(TickTask.java:18)
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:149)
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1465)
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:123)
+	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1442)
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1365)
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:133)
+	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1343)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1232)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at nLogin.jar//com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:56)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 29 more
+[2024/04/30 21:34:21]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'BlanKu', `unique_id` = f3316bc18e62359aab2d1290bd146ae4,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$SHA512$23d880ceb054496c7d0be93c45626437b72912fff05d7b9e6e1d7bd0a56a9ff42ff2f7adf3d191710a955c8a4838b9ab99ebd0c5bcb0521c7299df1afa9d2824$uAybPdCdSFYhOXbXzFpufOaY', `last_ip` = '127.0.0.1', `creation_date` = 2024-04-29 18:35:07.178, `last_seen` = 2024-04-30 21:34:21.67, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"nwPocb+s7bHpxRtSOUe6lze0K5/6rKlcYhwvflm4w0h7xpvVJLCp1REj5SAG+dWwE/DeerwSUmxmGqDuC8rKamgeYTXEGSjcFaEMWC3yJPQXXSug5+T3n/2RxqRC/6ohZT3rIcLbZTUj+156wbbfYxyZy9BiXyTmHayAMjrij8rmUHLHa/y68OoO0oJ+S4w7qhgETonrq25GZa84nrV/UElQzxqYDqjF9KVkO3wBB+b7IX6CBM3E3UgsRhw2wccXPR4CYnB/MfVtfqNVBtVs4yRrUQCs1yQmnX9m1lMwMlSFyqZ26szmvPua6TllcL4G+KlljN/qutHHvBZXLY/gLyUtPz1mcKOCG/gvCYhcDgn/I9R0/3gipuM8/a5xoLrCz4lZJbQP29OXKxupqUwY3WIx6n4oCW8WQdyS7PHp7PVPVai7gAlBlzr2wJRBDhfIh/ofkiN/D6y9hdxMKx3G0cruyfFh52Nkot/REQ1TzO66+zQaJdQqJ7G+B85s3br8N+aabTfqtuKljjCz6RmG5LrqehNmi79X6IsrECPZWQ756acyJugB3vZ8BuLLjX5X1DylJdT3jQtCRywBh+0OVQsD/h9KgkcsilrQ5BB6xkEzASutmjxTX4EZ7rcKV2U+v6Ucyddv0g5zkdFVU2do1NGCSVbWEivEIIwl2mlFLvU=:+1DkVPMsu9jYrQPR9904Ey5bJDwdKS6QGGqCu0J+pt+9Mkxe0/8GltMukDfX8V5SdG8=","key":"encrypted"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/04/30 21:34:21]: [nLogin] The user BlanKu has successfully logged in.
+[2024/04/30 21:38:30]: [nLogin] Could not update: update was not confirmed by the user.
+[2024/04/30 21:38:30]: [nLogin] Successful plugin core shutdown (took 0.00s)

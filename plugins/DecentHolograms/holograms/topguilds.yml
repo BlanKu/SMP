@@ -1,0 +1,16 @@
+location: world:-41,508:77,000:170,553
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7[&5&lGILDIE&7]'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: Do uzupełnienia
+    height: 0.3
+  actions: {}

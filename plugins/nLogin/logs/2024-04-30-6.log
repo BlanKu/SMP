@@ -1,0 +1,21 @@
+[2024/04/30 16:01:29]: §9          __             _       
+[2024/04/30 16:01:29]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/04/30 16:01:29]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/04/30 16:01:29]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/04/30 16:01:29]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/04/30 16:01:29]: §9                  |___/            
+[2024/04/30 16:01:29]: §9 By: www.nickuc.com - V 10.3.13 DEVELOPMENT
+[2024/04/30 16:01:29]: §9 
+[2024/04/30 16:01:29]: §3[nLogin] [DEBUG] All settings were loaded in 130 ms.
+[2024/04/30 16:01:29]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/04/30 16:01:29]: §3[nLogin] [DEBUG] All plugin messages were loaded in 92 ms (languageByClient=false).
+[2024/04/30 16:01:29]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/04/30 16:01:29]: §3[nLogin] [DEBUG] Loading database...
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §c
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §cA critical error was detected and nLogin could not be started.
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §cFor safety, the server will shut down in the next 30 seconds.
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §c
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §cPlease contact our team:
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §c Discord: www.nickuc.com/discord
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §c Email: support@nickuc.com
+[2024/04/30 16:01:29]: §4[nLogin] [ERROR] §c

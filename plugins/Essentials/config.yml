@@ -449,7 +449,7 @@ debug: false
 # For example, to set language to English, set locale to en, to use the file "messages_en.properties".
 # Don't forget to remove the # in front of the line.
 # For more information, visit https://essentialsx.net/wiki/Locale.html
-#locale: en
+locale: pl
 
 # Should EssentialsX use player's language instead of the server's when sending messages?
 # This is useful if you want to use a different language for your server than for your players.
@@ -611,7 +611,7 @@ repair-enchanted: true
 
 # Allow 'unsafe' enchantments in kits and item spawning.
 # Warning: Mixing and overleveling some enchantments can cause issues with clients, servers and plugins.
-unsafe-enchantments: false
+unsafe-enchantments: true
 
 # The maximum range from the player that the /tree and /bigtree commands can spawn trees.
 tree-command-range-limit: 300

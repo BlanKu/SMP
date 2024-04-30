@@ -1,0 +1,13 @@
+location: world_the_end:0,419:73,000:7,369
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7[&cPVP&7]'
+  - content: '&cZa czerwoną linią'
+    height: 0.3
+  actions: {}

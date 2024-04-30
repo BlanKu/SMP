@@ -1,0 +1,69 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3700
+'1':
+  uniqueId: a7fa4bf2-044e-4de7-9b45-ee1cd4b239d0
+  world: world
+  x: -50
+  y: 71
+  z: 179
+  yaw: 48.558372
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'2':
+  uniqueId: f4b4bc37-b9bc-4aab-a350-cdcf2e4b1abc
+  world: world
+  x: -55
+  y: 71
+  z: 189
+  yaw: 265.27838
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: DESERT
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: EMERALD
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: EMERALD
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 4
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: EMERALD
+        amount: 64
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 8
+  snapshots: []

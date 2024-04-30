@@ -6,11 +6,11 @@ BossBarHealth:
     - dungeon
   Self:
     # If it is enabled, it will show your hp at all times
-    Enabled: false
+    Enabled: true
     # Color of the boss bar
     # Avaliable options: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
-    Color: BLUE
+    Color: RED
     # Style of the boss bar
     # Avaliable options: SEGMENTED_10, SEGMENTED_12, SEGMENTED_20, SEGMENTED_6, SOLID
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
@@ -35,14 +35,14 @@ BossBarHealth:
       # %direction_ordinalfull%     NorthEast, SouthEast, etc...
       # %direction_ordinal%         NE, SE, etc...
       # %direction_number%          0-359 degrees
-      Normal: '%direction_cardinal% %displayname% %hp%/%max%'
+      Normal: '&7[&b%direction_cardinal%&7] %direction_number%'
       # Display format of boss bar health when self HP changes
       # Placeholders:
       # %change%          Player's health gained/lost
       # %change_percent%:           Player's health lost/gained in %
-      Dead: '%direction_cardinal% %displayname% Dead &7(&c-%change%&7)'
-      HpLost: '%direction_cardinal% %displayname% %hp%/%max% &7(&c-%change%&7)'
-      HpGain: '%direction_cardinal% %displayname% %hp%/%max% &7(&a+%change%&7)'
+      Dead: '&a%displayname% &7(&c-%change%&7)'
+      HpLost: '&a%displayname% &7(&c-%change%&7)'
+      HpGain: '&a%displayname% &7(&a+%change%&7)'
       # Duration of lost/gained hp staying on screen, in ticks
       Duration:
         Normal: 40
@@ -50,7 +50,7 @@ BossBarHealth:
     # How frequent will the boss bar change when facing has changed
     # Only effective when you have direction placeholders in the display format string
     Facing:
-      Refresh: 20
+      Refresh: 30
 
   Enemy:
     # If it is enabled, it will show enemy's hp when you attack
@@ -110,8 +110,8 @@ BossBarHealth:
     # Available options:
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
     FALL:
-      Color: WHITE
-      Style: SOLID
+      Color: GREEN
+      Style: SEGMENTED_20
 
   # Translation of directions
   Direction:
@@ -157,6 +157,6 @@ BossBarHealth:
         'spawn':
           Color: BLUE
           Style: SOLID
-          # 'shop':
-          # Color: PURPLE
-          # Style: SEGMENTED_6
+        'nopvp':
+          Color: GREEN
+          Style: SEGMENTED_20

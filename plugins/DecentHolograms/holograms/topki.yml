@@ -1,0 +1,12 @@
+location: world:-52,427:77,000:164,508
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7[&cTOP GRACZE&7]'
+    height: 0.3
+  actions: {}
