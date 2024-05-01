@@ -160,3 +160,6 @@ BossBarHealth:
         'nopvp':
           Color: GREEN
           Style: SEGMENTED_20
+        'czarny_rynek':
+          Color: PURPLE
+          Style: SEGMENTED_20

@@ -1,0 +1,88 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&7----------[&2&LWARPY&7]----------'
+open_command:
+  - warps
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 45
+# as always, only cool people can open this menu :)
+items:
+  'spawn':
+    material: GRASS_BLOCK
+    slot: 19
+    display_name: "&bSPAWN"
+    left_click_commands:
+    - '[player] spawn'
+    lore:
+    - ''
+    - '&a/spawn'
+  
+  'sklep':
+    material: EMERALD
+    slot: 20
+    display_name: "&aSKLEP"
+    left_click_commands:
+    - '[player] warp sklep'
+    lore:
+    - ''
+    - '&a/warp sklep'
+
+  'pvp':
+    material: NETHERITE_SWORD
+    slot: 21
+    display_name: "&4PVP"
+    left_click_commands:
+    - '[player] warp pvp'
+    lore:
+    - ''
+    - '&a/warp pvp'
+
+  'exit':
+    material: BARRIER
+    slot: 36
+    display_name: "&cBACK"
+    left_click_commands:
+    - '[player] menu'
+
+  'background_items':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+    display_name: ' '

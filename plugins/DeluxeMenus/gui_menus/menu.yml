@@ -1,0 +1,101 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&7----------[&4&LMENU&7]----------'
+open_command:
+  - menu
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+  - '[message] &7Opening Advanced example menu, Plugin created by &bextended_clip&7!'
+size: 45
+# as always, only cool people can open this menu :)
+items:
+  'player':
+    material: head-%player_name%
+    slot: 13
+    display_name: "&b%player_name%"
+    left_click_commands:
+    - '[player] stats'
+
+  'enderchest':
+    material: ENDER_CHEST
+    slot: 19
+    display_name: "&5ENDERCHEST"
+    left_click_commands:
+    - '[player] enderchest'
+    lore:
+    - '&7Otwórz enderchest'
+    - '&7gdzie tylko chcesz!'
+    - ''
+    - '&aTylko dla &bVIP'
+    - '&a/enderchest'
+
+  'actionhause':
+    material: EMERALD
+    slot: 20
+    display_name: "&6DOM AUKCYJNY"
+    left_click_commands:
+    - '[player] ah'
+    lore:
+    - '&7Znajdziesz tutaj przedmioty'
+    - '&7sprzedawane przez innych'
+    - '&7graczy z całego serwera!'
+    - ''
+    - '&a/ah'
+
+  'warps':
+    material: COMPASS
+    slot: 25
+    display_name: "&aWARPY"
+    left_click_commands:
+    - '[player] warps'
+    lore:
+    - '&7Przeteleportuj się w'
+    - '&7miejsce które chcesz!'
+
+  'exit':
+    material: BARRIER
+    slot: 36
+    display_name: "&cEXIT"
+    left_click_commands:
+    - '[close]'
+
+  'background_items':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+    display_name: ' '

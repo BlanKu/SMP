@@ -67,3 +67,20 @@ data-version: 3|2|3700
         type: DIAMOND
         amount: 8
   snapshots: []
+'3':
+  uniqueId: 930590d0-e4b8-4d2d-b1ec-9e073bed93fd
+  world: world
+  x: -47
+  y: 66
+  z: 177
+  yaw: 10.8470745
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []

@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    czarny_rynek:
+        min: {x: -54, y: 64, z: 177}
+        max: {x: -42, y: 70, z: 187}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 1
     __global__:
         members: {}
         flags: {}

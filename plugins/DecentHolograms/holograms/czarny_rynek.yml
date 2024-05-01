@@ -1,0 +1,12 @@
+location: world:-46,576:69,200:179,300
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7[&5CZARNY RYNEK&7]'
+    height: 0.3
+  actions: {}
